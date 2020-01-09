@@ -13,7 +13,7 @@ pip3 install dbq
 
 Note: libsasl2 is required on your system. On Ubuntu, get it through `sudo apt-get install libsasl2-dev`.
 
-Configuration instructions are be displayed when you run `dbq`.
+Configuration instructions will be displayed when you run `dbq`.
 
 
 ## Usage
@@ -45,9 +45,16 @@ vnoremap <C-s> :w !dbq -<cr>
 ![Vim demo](assets/vim-demo.svg)
 
 
-## Development
+## Development and contributing
 
 For development [pipenv](https://pipenv.kennethreitz.org/en/latest/) is required on your system. Set up the development environment with `make develop`, run with `pipenv run dbq ...` as needed. When submitting pull requests, ensure that `make lint` comes back clean; you can auto format the code with `make format`.
+
+We welcome pull requests; if you are planning to perform bigger changes then it makes sense to file an issue first.
+
+
+## Security
+
+For sensitive security matters please contact [security@getyourguide.com](mailto:security@getyourguide.com).
 
 
 ## Legal
